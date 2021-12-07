@@ -4,8 +4,8 @@
 
   <head>
 
-    <link rel="manifest" href="/public/manifest.json">
-    <script src="/public/js/main.js" defer></script>
+    <link rel="manifest" href="/../public/manifest.json">
+    <script src="/../public/js/main.js" defer></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
