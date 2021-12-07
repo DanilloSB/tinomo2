@@ -1,0 +1,20 @@
+{
+    "name": "Tinômo",
+    "short_name": "Tinômo",
+    "description": "Site com objetivo de ajudar trabalhadores autônomos.",
+    "display": "fullscreen",
+    "start_url":"layout.blade.php",    
+    "scope": "/public",
+    
+    "icons": [
+        {
+            "src": "images/icons/logo.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "icon/app-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }]
+}
