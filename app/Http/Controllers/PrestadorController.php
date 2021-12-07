@@ -30,4 +30,34 @@ class PrestadorController extends Controller
       
              
     }
+    public function authenticate(Request $request)
+    
+    {
+        $credentials = $request->validate([
+            'email_prestador' => ['required', 'email_prestador'],
+            'senha_prestador' => ['required'],
+        ]);
+
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+
+            return redirect()->intended('homeprestador');
+        }
+
+        return back()->withErrors([
+            'email_prestador' => 'As credenciais fornecidas não correspondem aos nossos registros.',
+        ]);
+    
+    }
+
+    public function logout(Request $request)
+{
+    Auth::logout();
+
+    $request->session()->invalidate();
+
+    $request->session()->regenerateToken();
+
+    return redirect('/');
+}
 }
