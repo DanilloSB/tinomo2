@@ -17,7 +17,7 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "É Necessário Um E-mail Válido: ex@abc.xyz">
-						<input class="input100" type="text" name="email" placeholder="Email">
+						<input class="input100" type="text" name="email_cliente" placeholder="Email">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -25,7 +25,7 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Senha Requerida">
-						<input class="input100" type="password" name="pass" placeholder="Senha">
+						<input class="input100" type="password" name="senha_cliente" placeholder="Senha">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>

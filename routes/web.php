@@ -75,3 +75,6 @@ Route::post('/cadprestadordeservico/novo', [PrestadorController::class, 'store']
 
 Route::get('/cadcliente/novo', [ClienteController::class, 'create']);
 Route::post('/cadcliente/novo', [ClienteController::class, 'store'])->name('registrar_cliente');
+
+
+Route::post('/login/novo', [ClienteController::class, 'authenticate'])->name('login_user');

@@ -25,7 +25,29 @@ class ClienteController extends Controller
         ]);
     
         return view('site.login');
+
+        
             
+    }
+
+    public function authenticate(Request $request)
+    
+    {
+        $credentials = $request->validate([
+            'email_cliente' => ['required', 'email_cliente'],
+            'senha_cliente' => ['required'],
+        ]);
+
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+
+            return redirect()->intended('homecliente');
+        }
+
+        return back()->withErrors([
+            'email_cliente' => 'As credenciais fornecidas não correspondem aos nossos registros.',
+        ]);
+    
     }
 
 }
