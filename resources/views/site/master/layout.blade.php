@@ -14,28 +14,28 @@
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="{{ url ('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="{{ url ('assets/css/font-awesome.css') }}">
+    <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.css">
 
-    <link rel="stylesheet" href="{{ url ('assets/css/templatemo-softy-pinko.css') }}">
+    <link rel="stylesheet" href="./assets/css/templatemo-softy-pinko.css">
 
-    <link rel="icon" type="image/png" href="{{ url ('assets/images/icons/logo.png') }}">
+    <link rel="icon" type="image/png" href="./assets/images/icons/logo.png">
 
  
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/vendoranimate/animate.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/vendoranimate/animate.css">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/vendorcss-hamburgers/hamburgers.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/vendorcss-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/vendorselect2/select2.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/vendorselect2/select2.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/css/util.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/css/main.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/css/util.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 <!--===============================================================================================-->
 
     </head>
