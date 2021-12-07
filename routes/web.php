@@ -78,3 +78,4 @@ Route::post('/cadcliente/novo', [ClienteController::class, 'store'])->name('regi
 
 
 Route::post('/login/novo', [ClienteController::class, 'authenticate'])->name('login_user');
+Route::get('/logout', [ClienteController::class, 'logout'])->name('logout_user');

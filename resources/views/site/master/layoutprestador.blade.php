@@ -70,7 +70,7 @@
                         <ul class="nav">
                             <li><a href="{{ route('site.homeprestador') }}">Home</a></li>
                             <li><a href="{{ route('site.servico') }}">Serviços</a></li>
-                            <li><a>Logout</a></li>    
+                            <li><a href="{{ route('logout_user') }}">Logout</a></li>    
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
