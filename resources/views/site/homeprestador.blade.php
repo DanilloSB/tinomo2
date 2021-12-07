@@ -90,10 +90,11 @@
                 <div class="col-lg-1"></div>
                 <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
                     <div class="left-heading">
-                        <h2 class="section-title">Chat</h2>
+                    <h2 class="section-title">Comunicação</h2>
                     </div>
                     <div class="left-text">
-                        <p>Possuimos um chat, solicite seus serviços atraves do mesmo.</p>
+                        <p>Para melhor interação entre cliente/prestador disponibilizamos e compartilhamos entre os mesmos, formas 
+                            de entrar em contato, para uma comunicação clara e objetiva .</p>
                     </div>
                 </div>
             </div>
