@@ -18,6 +18,6 @@ class descricaoservico extends Model
         'telefone_cliente',
         'end_cliente',
         'custo_servico',
-        'forma_pagamento',
+        'forma_pagamento'
     ];
 }
