@@ -65,7 +65,7 @@
                         <a href="{{ route('site.home') }}" class="logo">
                             <img src="{{ url ('assets/images/logo.png') }}" alt="Tinômo"/>
                         </a>
-                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Logo Ed ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="{{ route('site.homeprestador') }}">Home</a></li>
