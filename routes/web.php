@@ -67,7 +67,9 @@ Route::get('/buscarservico', function() {
   return view('site.buscarservico');
 })->name('site.buscarservico');
 
-Route::get('/contact/novo', [ContatosController::class, 'create']);
+Route::get('/contact/novo', [ContatosController::class, 'create'], function(){
+  return view('site.contact');
+})->name('site.contact');
 Route::post('/contact/novo', [ContatosController::class, 'store'])->name('registrar_contato');
 
 Route::get('/cadprestadordeservico/novo', [PrestadorController::class, 'create']);
