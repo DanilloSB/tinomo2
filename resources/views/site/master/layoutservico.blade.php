@@ -62,7 +62,7 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">
+                        <a href="{{ route('site.homecliente') }}" class="logo">
                             <img src="{{ url ('assets/images/logo.png') }}" alt="Tinômo"/>
                         </a>
                         <!-- ***** Logo End ***** -->
