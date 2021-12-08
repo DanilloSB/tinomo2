@@ -13,7 +13,9 @@ Ser referência nacional no ambiente de serviços autonômos.
 
 ## Valores 
 • Transparência na entrega do serviço;
+
 • Respeito a integridade do cliente;
+
 • Entrega de resultados fiéis.
 
 
