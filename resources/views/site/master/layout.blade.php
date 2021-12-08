@@ -127,7 +127,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <ul class="social">
-                        <li><a href="https://www.youtube.com/channel/UC-uSxlO9KBvX6a0TRXg8lyg"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC-uSxlO9KBvX6a0TRXg8lyg" target="_blank"><i class="fa fa-youtube"></i></a></li>
                         <li><a href="https://twitter.com/TinomoO" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.instagram.com/tinomo.oficial/?hl=pt-br" target="_blank"><i class="fa fa-instagram"></i></a></li>
                     </ul>

@@ -22,6 +22,11 @@
             <!-- ***** Section Title End ***** -->
 
             <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="{{ url ('assets/images/best-contact-us-pages-2.jpg') }}" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+            </div>
 
                 <!-- ***** Contact Form Start ***** -->
                 <div class="col-lg-8 col-md-6 col-sm-12">
