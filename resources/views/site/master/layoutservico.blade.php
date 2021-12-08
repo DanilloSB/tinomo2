@@ -71,7 +71,7 @@
                             <li><a href="{{ route('site.homecliente') }}">Home</a></li>
                             <li><a><input type="text" placeholder="O que você procura?">
                             <button type="submit"><i class="fa fa-search"></i></button></a></li>
-                            <li><a>Logout</a></li>
+                            <li><a href="{{ route('logout_user') }}">Logout</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
