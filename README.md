@@ -1,6 +1,6 @@
 ## Trabalho de Conclusão de Curso 
 
-## Tinômo
+## Aplicação Web - Tinômo
 
 ## Sobre
 Esse site foi criado com o objetivo de ajudar trabalhadores autonômos a conseguirem mais rentabilidade. Sabendo disso, a Tinômo foi criado em Fevereiro de 2021 para atender esse público.
