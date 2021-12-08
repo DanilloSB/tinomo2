@@ -16,22 +16,22 @@
 					<span class="login100-form-title">
 						Cadastro Prestador de Serviço 
 					</span>
-                    <div class="wrap-input100 validate-input" data-validate = "É Necessário o Nome Completo">
+                    <div class="wrap-input100 validate-input" data-validate = "É necessário o Nome Completo">
 						<input class="input100" type="text" name="nome_prestador" required placeholder="Nome Completo">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i aria-hidden="true"></i>
 						</span>
 					</div>
-                    <div class="wrap-input100 validate-input" data-validate ="Endereço  Correto">
-						<input class="input100" type="text" name="end_prestador" required placeholder="Endereco Completo">
+                    <div class="wrap-input100 validate-input" data-validate ="Endereço Correto">
+						<input class="input100" type="text" name="end_prestador" required placeholder="Endereço Completo">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 						    <i aria-hidden="true"></i>
 						</span>
 					</div>
                    <div class="wrap-input100 validate-input" data-validate = "Telefone Válido">
-                        <input class="input100" type="text" name="telefone_prestador" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required placeholder="Telefone: xx xxxxx-xxxx">
+                        <input class="input100" type="text" name="telefone_prestador" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required placeholder="Telefone ou Celular: xx xxxxx-xxxx">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i aria-hidden="true"></i>
@@ -51,7 +51,7 @@
 							<i aria-hidden="true"></i>
 						</span>
 					</div>
-					<div class="wrap-input100 validate-input" data-validate = "É Necessário Um E-mail Válido: ex@abc.xyz">
+					<div class="wrap-input100 validate-input" data-validate = "É necessário um E-mail Válido: ex@abc.xyz">
 						<input class="input100" type="email" name="email_prestador" required placeholder="Email">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">

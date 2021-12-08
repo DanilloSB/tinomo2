@@ -15,7 +15,7 @@
                 </div>
                 <div class="offset-lg-3 col-lg-6">
                     <div class="center-text">
-                        <p>Digite sua dúvida que ela logo será respondida.</p>
+                        <p>Digite sua dúvida que logo entraremos em contato.</p>
                     </div>
                 </div>
             </div>
@@ -42,12 +42,12 @@
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12">
                               <fieldset>
-                                <input name="email" type="email" class="form-control" placeholder="Endereço De E-Mail" required="required" data-error="É necessário um e-mail válido.">
+                                <input name="email" type="email" class="form-control" placeholder="Endereço de e-mail" required="required" data-error="É necessário um e-mail válido.">
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
                               <fieldset>
-                                <textarea name="msg" rows="6" class="form-control" placeholder="Sua Mensagem" required="required" data-error="Por favor, deixe-nos uma mensagem."></textarea>
+                                <textarea name="msg" rows="6" class="form-control" placeholder="Sua mensagem" required="required" data-error="Por favor, deixe-nos uma mensagem."></textarea>
                               </fieldset>
                             </div>
                             <div class="col-lg-12">

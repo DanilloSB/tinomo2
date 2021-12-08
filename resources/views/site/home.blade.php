@@ -85,8 +85,8 @@
                         <h2 class="section-title">Comunicação</h2>
                     </div>
                     <div class="left-text">
-                        <p>Para melhor interação entre cliente/prestador disponibilizamos e compartilhamos entre os mesmos, formas 
-                            de entrar em contato, para uma comunicação clara e objetiva .</p>
+                        <p>Para melhor interação entre cliente/prestador, disponibilizamos e compartilhamos entre os mesmos formas 
+                            de entrar em contato, para uma comunicação clara e objetiva.</p>
                     </div>
                 </div>
             </div>

@@ -44,28 +44,28 @@
   <div class="row align-items-center">
   <div class="col">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="{{ url ('assets/images/foto5.png') }}" width="100px" height="280px" alt="Card image cap">
+            <img class="card-img-top" src="{{ url ('assets/images/foto13.png') }}" width="100px" height="280px" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Júlia Atilano </h5> 
-                <p class="card-text">Serviço: Manicure <br> Localização: Itaquera, SP <br> E-mail: atilano@gmail.com <br>Telefone: 11 98512-4965 <br></p>
+                <h5 class="card-title">Élson Anjos </h5> 
+                <p class="card-text">Serviço: Preciso de Eletricista, estou com problemas no chuveiro.<br> Localização: Arthur Alvim, SP <br> E-mail: anjoel@gmail.com <br>Telefone: 11 5008-8134 <br></p>
             </div>
         </div>
     </div>
     <div class="col">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="{{ url ('assets/images/foto4.png') }}" width="100px" height="280px" alt="Card image cap">
+            <img class="card-img-top" src="{{ url ('assets/images/foto14.png') }}" width="100px" height="280px" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Enzo Mondragão </h5> 
-                <p class="card-text">Serviço: Designer <br> Localização: Suzano, SP <br> E-mail: mondenzo@gmail.com <br>Telefone: 11 91265-3326 <br></p>
+                <h5 class="card-title">Thaíssa Santana </h5> 
+                <p class="card-text">Serviço: Gostaria de fazer manutenção das unhas. <br> Localização: Vila Nhocuné, SP <br> E-mail: thaissan@gmail.com <br>Telefone: 11 9741-5491 <br></p>
             </div>
         </div>
     </div>
     <div class="col">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="{{ url ('assets/images/foto6.png') }}" width="100px" height="280px" alt="Card image cap">
+            <img class="card-img-top" src="{{ url ('assets/images/foto15.png') }}" width="100px" height="280px" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Nicole Ferreira </h5> 
-                <p class="card-text">Serviço: Passeadora de cães<br> Localização: Penha, SP <br> E-mail: nicajuda@gmail.com <br>Telefone: 11 94485-1106 <br></p>
+                <h5 class="card-title">Brenda Almeida </h5> 
+                <p class="card-text">Serviço: Busco desenhistas que possam fazer uma fanart personalizada.<br> Localização: Santo André, SP <br> E-mail: brendalmeida@gmail.com <br>Telefone: 11 98906-4089 <br></p>
             </div>
         </div>
     </div>
