@@ -5,18 +5,7 @@
   <head>
 
     <link rel="manifest" href="/../public/manifest.json">
-    <script>
-        if ('serviceWorker' in navigator) {
-        console.log("Installing ServiceWorker...");
-        navigator.serviceWorker.register('/public/sw.js')
-        .then(function(registration) {
-            console.log('Registration successful, scope is:', registration.scope);
-        })
-        .catch(function(error) {
-            console.log('Service worker registration failed, error:', error);
-        });
-  };
-    </script>
+    <script src="/../public/js/main.js" defer></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,29 +15,32 @@
 
     <title>Tinômo</title>
 
+
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="{{ url ('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="{{ url ('assets/css/font-awesome.css') }}">
+    <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.css">
 
-    <link rel="stylesheet" href="{{ url ('assets/css/templatemo-softy-pinko.css') }}">
+    <link rel="stylesheet" href="./assets/css/templatemo-softy-pinko.css">
 
-    <link rel="icon" type="image/png" href="{{ url ('assets/images/icons/logo.png') }}">
+    <link rel="icon" type="image/png" href="./assets/images/icons/logo.png">
+
  
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/vendoranimate/animate.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/vendoranimate/animate.css">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/vendorcss-hamburgers/hamburgers.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/vendorcss-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/vendorselect2/select2.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/vendorselect2/select2.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/css/util.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ url ('assets/css/main.css') }}">
+	<link rel="stylesheet" type="text/css" href="./assets/css/util.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 <!--===============================================================================================-->
+
     </head>
 
         <!-- Accessibly-->
@@ -138,7 +130,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <ul class="social">
-                        <li><a href="https://www.youtube.com/channel/UC-uSxlO9KBvX6a0TRXg8lyg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC-uSxlO9KBvX6a0TRXg8lyg"><i class="fa fa-youtube"></i></a></li>
                         <li><a href="https://twitter.com/TinomoO" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.instagram.com/tinomo.oficial/?hl=pt-br" target="_blank"><i class="fa fa-instagram"></i></a></li>
                     </ul>
