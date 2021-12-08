@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-use App\Models\Cliente;
+use App\Models\cliente;
 
 class ClienteController extends Controller
 {
@@ -25,7 +25,40 @@ class ClienteController extends Controller
         ]);
     
         return view('site.login');
+
+        
             
     }
+
+    public function authenticate(Request $request)
+    
+    {
+        $credentials = $request->validate([
+            'email_cliente' => ['required', 'email_cliente'],
+            'senha_cliente' => ['required'],
+        ]);
+
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+
+            return redirect()->intended('homecliente');
+        }
+
+        return back()->withErrors([
+            'email_cliente' => 'As credenciais fornecidas não correspondem aos nossos registros.',
+        ]);
+    
+    }
+
+    public function logout(Request $request)
+{
+    Auth::logout();
+
+    $request->session()->invalidate();
+
+    $request->session()->regenerateToken();
+
+    return redirect('/');
+}
 
 }

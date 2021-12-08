@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="{{ url ('assets/css/templatemo-softy-pinko.css') }}">
 
     <link rel="icon" type="image/png" href="{{ url ('assets/images/icons/logo.png') }}">
-
  
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ url ('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
@@ -37,7 +36,6 @@
 	<link rel="stylesheet" type="text/css" href="{{ url ('assets/css/util.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ url ('assets/css/main.css') }}">
 <!--===============================================================================================-->
-
     </head>
         <!-- Accessibly-->
         <body>
@@ -62,7 +60,7 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">
+                        <a href="{{ route('site.homecliente') }}" class="logo">
                             <img src="{{ url ('assets/images/logo.png') }}" alt="Tinômo"/>
                         </a>
                         <!-- ***** Logo End ***** -->
@@ -71,7 +69,7 @@
                             <li><a href="{{ route('site.homecliente') }}">Home</a></li>
                             <li><a><input type="text" placeholder="O que você procura?">
                             <button type="submit"><i class="fa fa-search"></i></button></a></li>
-                            <li><a>Logout</a></li>
+                            <li><a href="{{ route('logout_user') }}">Logout</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -130,7 +128,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <ul class="social">
-                        <li><a href="https://www.youtube.com/channel/UC-uSxlO9KBvX6a0TRXg8lyg"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC-uSxlO9KBvX6a0TRXg8lyg" target="_blank"><i class="fa fa-youtube"></i></a></li>
                         <li><a href="https://twitter.com/TinomoO" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.instagram.com/tinomo.oficial/?hl=pt-br" target="_blank"><i class="fa fa-instagram"></i></a></li>
                     </ul>

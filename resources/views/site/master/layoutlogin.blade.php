@@ -20,8 +20,7 @@
 
     <link rel="stylesheet" href="{{ url ('assets/css/templatemo-softy-pinko.css') }}">
 
-    <link rel="icon" type="image/png" href="{{ url ('assets/images/icons/logo.png') }}>
-
+    <link rel="icon" type="image/png" href="{{ url ('assets/images/icons/logo.png') }}">
  
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ url ('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
@@ -37,7 +36,6 @@
 	<link rel="stylesheet" type="text/css" href="{{ url ('assets/css/util.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ url ('assets/css/main.css') }}">
 <!--===============================================================================================-->
-
     </head>
     
     <!-- Accessibly-->
